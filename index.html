@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Fundamentos Avanzados de JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Taller de Fundamentos Avanzados de JavaScript</h1>
+
+        <div id="seccion1" class="section">
+            <h2>Sección 1: Scope y Hoisting</h2>
+            <h3>Ejercicio 1</h3>
+            <img src="imgs/1.png" alt="">
+            <button onclick="ejercicio1()">Ejercicio 1: El Quiz del Scope</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado1"></div>
+            <h3>Ejercicio 2</h3>
+            <img src="imgs/2.png" alt="">
+            <button onclick="ejercicio2()">Ejercicio 2: Hoisting en Práctica</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado2"></div>
+        </div>
+    
+        <div id="seccion2" class="section">
+            <h2>Sección 2: Funciones, Closures y Asincronía</h2>
+            <h3>Ejercicio 3</h3>
+            <img src="imgs/3.png" alt="">
+            <button onclick="ejercicio3()">Ejercicio 3: Closures en Acción</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado3"></div>
+            <h3>Ejercicio 4</h3>
+            <img src="imgs/4.png" alt="">
+            <button onclick="ejercicio4()">Ejercicio 4: Funciones Declaradas vs Expresadas</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado4"></div>
+            <h3>Ejercicio 5</h3>
+            <img src="imgs/5.png" alt="">
+            <button onclick="ejercicio5()">Ejercicio 5: Promesas y Callbacks en Acción</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado5"></div>
+        </div>
+    
+        <div id="seccion3" class="section">
+            <h2>Sección 3: Event Loop y Web APIs</h2>
+            <h3>Ejercicio 6</h3>
+            <img src="imgs/6.png" alt="">
+            <button onclick="ejercicio6()">Ejercicio 6: Comportamiento Asíncrono</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado6"></div>
+            <h3>Ejercicio 7</h3>
+            <img src="imgs/7.png" alt="">
+            <button onclick="ejercicio7()">Ejercicio 7: Predicción del Orden de Ejecución</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado7"></div>
+            <h3>Ejercicio 8</h3>
+            <img src="imgs/8.png" alt="">
+            <button onclick="ejercicio8()">Ejercicio 8: Magia con Closures</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado8"></div>
+            <h3>Ejercicio 9</h3>
+            <img src="imgs/9.png" alt="">
+            <button onclick="ejercicio9()">Ejercicio 9: Domina las Web APIs con Promesas y Fetch</button>
+            <div id="resultado9"></div>
+        </div>
+    
+        <div id="seccion4" class="section">
+            <h2>Sección 4: Visualización del Event Loop</h2>
+            <h3>Ejercicio 10</h3>
+            <img src="imgs/10.png" alt="">
+            <button onclick="ejercicio10()">Ejercicio 10: Visualización del Event Loop</button>
+            <h5>Respuestas:</h5>
+            <div id="resultado10"></div>
+        </div>
+    
+        <div id="seccion5" class="section">
+            <h1>Sistema de Reservas de Hotel</h1>
+            <h2>Buscar habitaciones disponibles</h2>
+            <input type="date" id="fechaInicio" placeholder="Fecha de inicio">
+            <input type="date" id="fechaFin" placeholder="Fecha de fin">
+            <button onclick="mostrarHabitacionesDisponibles()">Buscar Disponibilidad</button>
+            <h2>Habitaciones Disponibles</h2>
+            <div id="habitacionesDisponibles"></div>
+            <h2>Crear Reserva</h2>
+            <input type="text" id="nombreReserva" placeholder="Nombre completo">
+            <button onclick="crearReserva()">Reservar Habitación</button>
+            <h2>Consultar Reservas</h2>
+            <input type="text" id="buscarNombre" placeholder="Nombre o apellido">
+            <button onclick="consultarReservasPorNombre()">Buscar Reservas</button>
+            <div id="reservasConsultadas"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="hotelSystem.js"></script>
+</body>
+</html>
